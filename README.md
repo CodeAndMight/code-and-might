@@ -1,13 +1,13 @@
-TO DO
+п»їTO DO
 =====
-- [ ] Выполнить загрузку данных с http://codeforces.ru/api
-  - [ ] Метод contest.hacks
-  - [ ] Метод contest.list
-  - [ ] Метод contest.standings
-  - [ ] Метод contest.status
-  - [ ] Метод problemset.problems
-  - [ ] Метод problemset.recentStatus
-  - [ ] Метод user.info
-  - [ ] Метод user.ratedList
-  - [ ] Метод user.rating
-  - [ ] Метод user.status
+- [ ] Р’С‹РїРѕР»РЅРёС‚СЊ Р·Р°РіСЂСѓР·РєСѓ РґР°РЅРЅС‹С… СЃ http://codeforces.ru/api
+  - [ ] РњРµС‚РѕРґ contest.hacks
+  - [ ] РњРµС‚РѕРґ contest.list
+  - [ ] РњРµС‚РѕРґ contest.standings
+  - [ ] РњРµС‚РѕРґ contest.status
+  - [ ] РњРµС‚РѕРґ problemset.problems
+  - [ ] РњРµС‚РѕРґ problemset.recentStatus
+  - [ ] РњРµС‚РѕРґ user.info
+  - [ ] РњРµС‚РѕРґ user.ratedList
+  - [ ] РњРµС‚РѕРґ user.rating
+  - [ ] РњРµС‚РѕРґ user.status
