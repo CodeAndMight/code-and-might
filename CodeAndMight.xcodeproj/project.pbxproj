@@ -22,19 +22,6 @@
 		3287ED4E197E612A00A02B77 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3287ED41197E612A00A02B77 /* README.md */; };
 		32DF107F197D56DE00632ADD /* CAMContest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF107E197D56DE00632ADD /* CAMContest.m */; };
 		32DF164D197E489A006F82B8 /* CAMCodeforcesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF164C197E489A006F82B8 /* CAMCodeforcesAPI.m */; };
-		32DF1664197E5C63006F82B8 /* MMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1650197E5C63006F82B8 /* MMHud.m */; };
-		32DF1665197E5C63006F82B8 /* MMLinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1652197E5C63006F82B8 /* MMLinearProgressView.m */; };
-		32DF1666197E5C63006F82B8 /* MMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1654197E5C63006F82B8 /* MMProgressHUD.m */; };
-		32DF1667197E5C63006F82B8 /* MMProgressHUD+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1656197E5C63006F82B8 /* MMProgressHUD+Animations.m */; };
-		32DF1668197E5C63006F82B8 /* MMProgressHUD+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1657197E5C63006F82B8 /* MMProgressHUD+Class.m */; };
-		32DF1669197E5C63006F82B8 /* MMProgressHUDOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF165A197E5C63006F82B8 /* MMProgressHUDOverlayView.m */; };
-		32DF166A197E5C63006F82B8 /* MMProgressHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF165C197E5C63006F82B8 /* MMProgressHUDViewController.m */; };
-		32DF166B197E5C63006F82B8 /* MMProgressHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF165E197E5C63006F82B8 /* MMProgressHUDWindow.m */; };
-		32DF166C197E5C63006F82B8 /* MMRadialProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1661197E5C63006F82B8 /* MMRadialProgressView.m */; };
-		32DF166D197E5C63006F82B8 /* MMVectorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1663197E5C63006F82B8 /* MMVectorImage.m */; };
-		32DF1671197E5C77006F82B8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 32DF166E197E5C77006F82B8 /* LICENSE */; };
-		32DF1672197E5C77006F82B8 /* MMProgressHUD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 32DF166F197E5C77006F82B8 /* MMProgressHUD.podspec */; };
-		32DF1673197E5C77006F82B8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32DF1670197E5C77006F82B8 /* README.md */; };
 		32E28A73197D313C002157E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A72197D313C002157E6 /* Foundation.framework */; };
 		32E28A75197D313C002157E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A74197D313C002157E6 /* CoreGraphics.framework */; };
 		32E28A77197D313C002157E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A76197D313C002157E6 /* UIKit.framework */; };
@@ -90,30 +77,6 @@
 		32DF107E197D56DE00632ADD /* CAMContest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMContest.m; sourceTree = "<group>"; };
 		32DF164B197E489A006F82B8 /* CAMCodeforcesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMCodeforcesAPI.h; sourceTree = "<group>"; };
 		32DF164C197E489A006F82B8 /* CAMCodeforcesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMCodeforcesAPI.m; sourceTree = "<group>"; };
-		32DF164F197E5C63006F82B8 /* MMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHud.h; sourceTree = "<group>"; };
-		32DF1650197E5C63006F82B8 /* MMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHud.m; sourceTree = "<group>"; };
-		32DF1651197E5C63006F82B8 /* MMLinearProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLinearProgressView.h; sourceTree = "<group>"; };
-		32DF1652197E5C63006F82B8 /* MMLinearProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLinearProgressView.m; sourceTree = "<group>"; };
-		32DF1653197E5C63006F82B8 /* MMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUD.h; sourceTree = "<group>"; };
-		32DF1654197E5C63006F82B8 /* MMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUD.m; sourceTree = "<group>"; };
-		32DF1655197E5C63006F82B8 /* MMProgressHUD+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressHUD+Animations.h"; sourceTree = "<group>"; };
-		32DF1656197E5C63006F82B8 /* MMProgressHUD+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Animations.m"; sourceTree = "<group>"; };
-		32DF1657197E5C63006F82B8 /* MMProgressHUD+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Class.m"; sourceTree = "<group>"; };
-		32DF1658197E5C63006F82B8 /* MMProgressHUDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDCommon.h; sourceTree = "<group>"; };
-		32DF1659197E5C63006F82B8 /* MMProgressHUDOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDOverlayView.h; sourceTree = "<group>"; };
-		32DF165A197E5C63006F82B8 /* MMProgressHUDOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDOverlayView.m; sourceTree = "<group>"; };
-		32DF165B197E5C63006F82B8 /* MMProgressHUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDViewController.h; sourceTree = "<group>"; };
-		32DF165C197E5C63006F82B8 /* MMProgressHUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDViewController.m; sourceTree = "<group>"; };
-		32DF165D197E5C63006F82B8 /* MMProgressHUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDWindow.h; sourceTree = "<group>"; };
-		32DF165E197E5C63006F82B8 /* MMProgressHUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDWindow.m; sourceTree = "<group>"; };
-		32DF165F197E5C63006F82B8 /* MMProgressView-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressView-Protocol.h"; sourceTree = "<group>"; };
-		32DF1660197E5C63006F82B8 /* MMRadialProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRadialProgressView.h; sourceTree = "<group>"; };
-		32DF1661197E5C63006F82B8 /* MMRadialProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRadialProgressView.m; sourceTree = "<group>"; };
-		32DF1662197E5C63006F82B8 /* MMVectorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorImage.h; sourceTree = "<group>"; };
-		32DF1663197E5C63006F82B8 /* MMVectorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorImage.m; sourceTree = "<group>"; };
-		32DF166E197E5C77006F82B8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		32DF166F197E5C77006F82B8 /* MMProgressHUD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MMProgressHUD.podspec; sourceTree = "<group>"; };
-		32DF1670197E5C77006F82B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		32E28A6F197D313C002157E6 /* CodeAndMight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAndMight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E28A72197D313C002157E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32E28A74197D313C002157E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -204,30 +167,6 @@
 				3287ED3F197E612A00A02B77 /* MMVectorImage.h */,
 				3287ED40197E612A00A02B77 /* MMVectorImage.m */,
 				3287ED41197E612A00A02B77 /* README.md */,
-				32DF166E197E5C77006F82B8 /* LICENSE */,
-				32DF166F197E5C77006F82B8 /* MMProgressHUD.podspec */,
-				32DF1670197E5C77006F82B8 /* README.md */,
-				32DF164F197E5C63006F82B8 /* MMHud.h */,
-				32DF1650197E5C63006F82B8 /* MMHud.m */,
-				32DF1651197E5C63006F82B8 /* MMLinearProgressView.h */,
-				32DF1652197E5C63006F82B8 /* MMLinearProgressView.m */,
-				32DF1653197E5C63006F82B8 /* MMProgressHUD.h */,
-				32DF1654197E5C63006F82B8 /* MMProgressHUD.m */,
-				32DF1655197E5C63006F82B8 /* MMProgressHUD+Animations.h */,
-				32DF1656197E5C63006F82B8 /* MMProgressHUD+Animations.m */,
-				32DF1657197E5C63006F82B8 /* MMProgressHUD+Class.m */,
-				32DF1658197E5C63006F82B8 /* MMProgressHUDCommon.h */,
-				32DF1659197E5C63006F82B8 /* MMProgressHUDOverlayView.h */,
-				32DF165A197E5C63006F82B8 /* MMProgressHUDOverlayView.m */,
-				32DF165B197E5C63006F82B8 /* MMProgressHUDViewController.h */,
-				32DF165C197E5C63006F82B8 /* MMProgressHUDViewController.m */,
-				32DF165D197E5C63006F82B8 /* MMProgressHUDWindow.h */,
-				32DF165E197E5C63006F82B8 /* MMProgressHUDWindow.m */,
-				32DF165F197E5C63006F82B8 /* MMProgressView-Protocol.h */,
-				32DF1660197E5C63006F82B8 /* MMRadialProgressView.h */,
-				32DF1661197E5C63006F82B8 /* MMRadialProgressView.m */,
-				32DF1662197E5C63006F82B8 /* MMVectorImage.h */,
-				32DF1663197E5C63006F82B8 /* MMVectorImage.m */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -401,15 +340,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32DF1673197E5C77006F82B8 /* README.md in Resources */,
 				3287ED46197E612A00A02B77 /* MMProgressHUD.podspec in Resources */,
 				32E28A8B197D313C002157E6 /* Images.xcassets in Resources */,
 				32E28A7D197D313C002157E6 /* InfoPlist.strings in Resources */,
 				3287ED42197E612A00A02B77 /* LICENSE in Resources */,
-				32DF1671197E5C77006F82B8 /* LICENSE in Resources */,
 				3287ED4E197E612A00A02B77 /* README.md in Resources */,
 				32E28A86197D313C002157E6 /* Main.storyboard in Resources */,
-				32DF1672197E5C77006F82B8 /* MMProgressHUD.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,29 +366,19 @@
 			files = (
 				32DF164D197E489A006F82B8 /* CAMCodeforcesAPI.m in Sources */,
 				32DF107F197D56DE00632ADD /* CAMContest.m in Sources */,
-				32DF166B197E5C63006F82B8 /* MMProgressHUDWindow.m in Sources */,
 				3287ED49197E612A00A02B77 /* MMProgressHUDOverlayView.m in Sources */,
-				32DF1666197E5C63006F82B8 /* MMProgressHUD.m in Sources */,
-				32DF166A197E5C63006F82B8 /* MMProgressHUDViewController.m in Sources */,
 				3287ED48197E612A00A02B77 /* MMProgressHUD+Class.m in Sources */,
 				32E28AAB197D376E002157E6 /* CAMContestListTableViewController.m in Sources */,
 				3287ED45197E612A00A02B77 /* MMProgressHUD.m in Sources */,
 				3287ED47197E612A00A02B77 /* MMProgressHUD+Animations.m in Sources */,
-				32DF166C197E5C63006F82B8 /* MMRadialProgressView.m in Sources */,
-				32DF1665197E5C63006F82B8 /* MMLinearProgressView.m in Sources */,
 				3287ED4D197E612A00A02B77 /* MMVectorImage.m in Sources */,
-				32DF1668197E5C63006F82B8 /* MMProgressHUD+Class.m in Sources */,
 				3287ED44197E612A00A02B77 /* MMLinearProgressView.m in Sources */,
-				32DF1664197E5C63006F82B8 /* MMHud.m in Sources */,
-				32DF1669197E5C63006F82B8 /* MMProgressHUDOverlayView.m in Sources */,
 				3287ED4C197E612A00A02B77 /* MMRadialProgressView.m in Sources */,
 				32E28A83197D313C002157E6 /* CAMAppDelegate.m in Sources */,
 				3287ED4A197E612A00A02B77 /* MMProgressHUDViewController.m in Sources */,
-				32DF166D197E5C63006F82B8 /* MMVectorImage.m in Sources */,
 				3287ED43197E612A00A02B77 /* MMHud.m in Sources */,
 				3287ED4B197E612A00A02B77 /* MMProgressHUDWindow.m in Sources */,
 				32E28A7F197D313C002157E6 /* main.m in Sources */,
-				32DF1667197E5C63006F82B8 /* MMProgressHUD+Animations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
