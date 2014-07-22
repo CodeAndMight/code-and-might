@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32DF107F197D56DE00632ADD /* CAMContest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF107E197D56DE00632ADD /* CAMContest.m */; };
+		32DF164D197E489A006F82B8 /* CAMCodeforcesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF164C197E489A006F82B8 /* CAMCodeforcesAPI.m */; };
+		32DF1664197E5C63006F82B8 /* MMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1650197E5C63006F82B8 /* MMHud.m */; };
+		32DF1665197E5C63006F82B8 /* MMLinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1652197E5C63006F82B8 /* MMLinearProgressView.m */; };
+		32DF1666197E5C63006F82B8 /* MMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1654197E5C63006F82B8 /* MMProgressHUD.m */; };
+		32DF1667197E5C63006F82B8 /* MMProgressHUD+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1656197E5C63006F82B8 /* MMProgressHUD+Animations.m */; };
+		32DF1668197E5C63006F82B8 /* MMProgressHUD+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1657197E5C63006F82B8 /* MMProgressHUD+Class.m */; };
+		32DF1669197E5C63006F82B8 /* MMProgressHUDOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF165A197E5C63006F82B8 /* MMProgressHUDOverlayView.m */; };
+		32DF166A197E5C63006F82B8 /* MMProgressHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF165C197E5C63006F82B8 /* MMProgressHUDViewController.m */; };
+		32DF166B197E5C63006F82B8 /* MMProgressHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF165E197E5C63006F82B8 /* MMProgressHUDWindow.m */; };
+		32DF166C197E5C63006F82B8 /* MMRadialProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1661197E5C63006F82B8 /* MMRadialProgressView.m */; };
+		32DF166D197E5C63006F82B8 /* MMVectorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1663197E5C63006F82B8 /* MMVectorImage.m */; };
+		32DF1671197E5C77006F82B8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 32DF166E197E5C77006F82B8 /* LICENSE */; };
+		32DF1672197E5C77006F82B8 /* MMProgressHUD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 32DF166F197E5C77006F82B8 /* MMProgressHUD.podspec */; };
+		32DF1673197E5C77006F82B8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32DF1670197E5C77006F82B8 /* README.md */; };
+		32E28A73197D313C002157E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A72197D313C002157E6 /* Foundation.framework */; };
+		32E28A75197D313C002157E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A74197D313C002157E6 /* CoreGraphics.framework */; };
+		32E28A77197D313C002157E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A76197D313C002157E6 /* UIKit.framework */; };
+		32E28A7D197D313C002157E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32E28A7B197D313C002157E6 /* InfoPlist.strings */; };
+		32E28A7F197D313C002157E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E28A7E197D313C002157E6 /* main.m */; };
+		32E28A83197D313C002157E6 /* CAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E28A82197D313C002157E6 /* CAMAppDelegate.m */; };
+		32E28A86197D313C002157E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E28A84197D313C002157E6 /* Main.storyboard */; };
+		32E28A8B197D313C002157E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E28A8A197D313C002157E6 /* Images.xcassets */; };
+		32E28A92197D313C002157E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A91197D313C002157E6 /* XCTest.framework */; };
+		32E28A93197D313C002157E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A72197D313C002157E6 /* Foundation.framework */; };
+		32E28A94197D313C002157E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A76197D313C002157E6 /* UIKit.framework */; };
+		32E28A9C197D313C002157E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32E28A9A197D313C002157E6 /* InfoPlist.strings */; };
+		32E28A9E197D313C002157E6 /* CodeAndMightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E28A9D197D313C002157E6 /* CodeAndMightTests.m */; };
+		32E28AAB197D376E002157E6 /* CAMContestListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E28AAA197D376E002157E6 /* CAMContestListTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E28A95197D313C002157E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E28A67197D313C002157E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E28A6E197D313C002157E6;
+			remoteInfo = CodeAndMight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32DF107D197D56DE00632ADD /* CAMContest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMContest.h; sourceTree = "<group>"; };
+		32DF107E197D56DE00632ADD /* CAMContest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMContest.m; sourceTree = "<group>"; };
+		32DF164B197E489A006F82B8 /* CAMCodeforcesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMCodeforcesAPI.h; sourceTree = "<group>"; };
+		32DF164C197E489A006F82B8 /* CAMCodeforcesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMCodeforcesAPI.m; sourceTree = "<group>"; };
+		32DF164F197E5C63006F82B8 /* MMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHud.h; sourceTree = "<group>"; };
+		32DF1650197E5C63006F82B8 /* MMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHud.m; sourceTree = "<group>"; };
+		32DF1651197E5C63006F82B8 /* MMLinearProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLinearProgressView.h; sourceTree = "<group>"; };
+		32DF1652197E5C63006F82B8 /* MMLinearProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLinearProgressView.m; sourceTree = "<group>"; };
+		32DF1653197E5C63006F82B8 /* MMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUD.h; sourceTree = "<group>"; };
+		32DF1654197E5C63006F82B8 /* MMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUD.m; sourceTree = "<group>"; };
+		32DF1655197E5C63006F82B8 /* MMProgressHUD+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressHUD+Animations.h"; sourceTree = "<group>"; };
+		32DF1656197E5C63006F82B8 /* MMProgressHUD+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Animations.m"; sourceTree = "<group>"; };
+		32DF1657197E5C63006F82B8 /* MMProgressHUD+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Class.m"; sourceTree = "<group>"; };
+		32DF1658197E5C63006F82B8 /* MMProgressHUDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDCommon.h; sourceTree = "<group>"; };
+		32DF1659197E5C63006F82B8 /* MMProgressHUDOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDOverlayView.h; sourceTree = "<group>"; };
+		32DF165A197E5C63006F82B8 /* MMProgressHUDOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDOverlayView.m; sourceTree = "<group>"; };
+		32DF165B197E5C63006F82B8 /* MMProgressHUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDViewController.h; sourceTree = "<group>"; };
+		32DF165C197E5C63006F82B8 /* MMProgressHUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDViewController.m; sourceTree = "<group>"; };
+		32DF165D197E5C63006F82B8 /* MMProgressHUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDWindow.h; sourceTree = "<group>"; };
+		32DF165E197E5C63006F82B8 /* MMProgressHUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDWindow.m; sourceTree = "<group>"; };
+		32DF165F197E5C63006F82B8 /* MMProgressView-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressView-Protocol.h"; sourceTree = "<group>"; };
+		32DF1660197E5C63006F82B8 /* MMRadialProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRadialProgressView.h; sourceTree = "<group>"; };
+		32DF1661197E5C63006F82B8 /* MMRadialProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRadialProgressView.m; sourceTree = "<group>"; };
+		32DF1662197E5C63006F82B8 /* MMVectorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorImage.h; sourceTree = "<group>"; };
+		32DF1663197E5C63006F82B8 /* MMVectorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorImage.m; sourceTree = "<group>"; };
+		32DF166E197E5C77006F82B8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		32DF166F197E5C77006F82B8 /* MMProgressHUD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MMProgressHUD.podspec; sourceTree = "<group>"; };
+		32DF1670197E5C77006F82B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		32E28A6F197D313C002157E6 /* CodeAndMight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAndMight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E28A72197D313C002157E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32E28A74197D313C002157E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32E28A76197D313C002157E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32E28A7A197D313C002157E6 /* CodeAndMight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeAndMight-Info.plist"; sourceTree = "<group>"; };
+		32E28A7C197D313C002157E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32E28A7E197D313C002157E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32E28A80197D313C002157E6 /* CodeAndMight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeAndMight-Prefix.pch"; sourceTree = "<group>"; };
+		32E28A81197D313C002157E6 /* CAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAMAppDelegate.h; sourceTree = "<group>"; };
+		32E28A82197D313C002157E6 /* CAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMAppDelegate.m; sourceTree = "<group>"; };
+		32E28A85197D313C002157E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32E28A8A197D313C002157E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32E28A90197D313C002157E6 /* CodeAndMightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAndMightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E28A91197D313C002157E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32E28A99197D313C002157E6 /* CodeAndMightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeAndMightTests-Info.plist"; sourceTree = "<group>"; };
+		32E28A9B197D313C002157E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32E28A9D197D313C002157E6 /* CodeAndMightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeAndMightTests.m; sourceTree = "<group>"; };
+		32E28AA9197D376E002157E6 /* CAMContestListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMContestListTableViewController.h; sourceTree = "<group>"; };
+		32E28AAA197D376E002157E6 /* CAMContestListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMContestListTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E28A6C197D313C002157E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E28A75197D313C002157E6 /* CoreGraphics.framework in Frameworks */,
+				32E28A77197D313C002157E6 /* UIKit.framework in Frameworks */,
+				32E28A73197D313C002157E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E28A8D197D313C002157E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E28A92197D313C002157E6 /* XCTest.framework in Frameworks */,
+				32E28A94197D313C002157E6 /* UIKit.framework in Frameworks */,
+				32E28A93197D313C002157E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32DF107C197D56C200632ADD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32DF107D197D56DE00632ADD /* CAMContest.h */,
+				32DF107E197D56DE00632ADD /* CAMContest.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		32DF164A197E471E006F82B8 /* Codeforces API */ = {
+			isa = PBXGroup;
+			children = (
+				32DF164B197E489A006F82B8 /* CAMCodeforcesAPI.h */,
+				32DF164C197E489A006F82B8 /* CAMCodeforcesAPI.m */,
+			);
+			name = "Codeforces API";
+			sourceTree = "<group>";
+		};
+		32DF164E197E5C25006F82B8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				32DF166E197E5C77006F82B8 /* LICENSE */,
+				32DF166F197E5C77006F82B8 /* MMProgressHUD.podspec */,
+				32DF1670197E5C77006F82B8 /* README.md */,
+				32DF164F197E5C63006F82B8 /* MMHud.h */,
+				32DF1650197E5C63006F82B8 /* MMHud.m */,
+				32DF1651197E5C63006F82B8 /* MMLinearProgressView.h */,
+				32DF1652197E5C63006F82B8 /* MMLinearProgressView.m */,
+				32DF1653197E5C63006F82B8 /* MMProgressHUD.h */,
+				32DF1654197E5C63006F82B8 /* MMProgressHUD.m */,
+				32DF1655197E5C63006F82B8 /* MMProgressHUD+Animations.h */,
+				32DF1656197E5C63006F82B8 /* MMProgressHUD+Animations.m */,
+				32DF1657197E5C63006F82B8 /* MMProgressHUD+Class.m */,
+				32DF1658197E5C63006F82B8 /* MMProgressHUDCommon.h */,
+				32DF1659197E5C63006F82B8 /* MMProgressHUDOverlayView.h */,
+				32DF165A197E5C63006F82B8 /* MMProgressHUDOverlayView.m */,
+				32DF165B197E5C63006F82B8 /* MMProgressHUDViewController.h */,
+				32DF165C197E5C63006F82B8 /* MMProgressHUDViewController.m */,
+				32DF165D197E5C63006F82B8 /* MMProgressHUDWindow.h */,
+				32DF165E197E5C63006F82B8 /* MMProgressHUDWindow.m */,
+				32DF165F197E5C63006F82B8 /* MMProgressView-Protocol.h */,
+				32DF1660197E5C63006F82B8 /* MMRadialProgressView.h */,
+				32DF1661197E5C63006F82B8 /* MMRadialProgressView.m */,
+				32DF1662197E5C63006F82B8 /* MMVectorImage.h */,
+				32DF1663197E5C63006F82B8 /* MMVectorImage.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		32E28A66197D313C002157E6 = {
+			isa = PBXGroup;
+			children = (
+				32E28A78197D313C002157E6 /* CodeAndMight */,
+				32E28A97197D313C002157E6 /* CodeAndMightTests */,
+				32E28A71197D313C002157E6 /* Frameworks */,
+				32E28A70197D313C002157E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32E28A70197D313C002157E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E28A6F197D313C002157E6 /* CodeAndMight.app */,
+				32E28A90197D313C002157E6 /* CodeAndMightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E28A71197D313C002157E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32E28A72197D313C002157E6 /* Foundation.framework */,
+				32E28A74197D313C002157E6 /* CoreGraphics.framework */,
+				32E28A76197D313C002157E6 /* UIKit.framework */,
+				32E28A91197D313C002157E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E28A78197D313C002157E6 /* CodeAndMight */ = {
+			isa = PBXGroup;
+			children = (
+				32DF164E197E5C25006F82B8 /* Library */,
+				32DF164A197E471E006F82B8 /* Codeforces API */,
+				32DF107C197D56C200632ADD /* Models */,
+				32E28AA7197D3739002157E6 /* UI */,
+				32E28A81197D313C002157E6 /* CAMAppDelegate.h */,
+				32E28A82197D313C002157E6 /* CAMAppDelegate.m */,
+				32E28A84197D313C002157E6 /* Main.storyboard */,
+				32E28A8A197D313C002157E6 /* Images.xcassets */,
+				32E28A79197D313C002157E6 /* Supporting Files */,
+			);
+			path = CodeAndMight;
+			sourceTree = "<group>";
+		};
+		32E28A79197D313C002157E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E28A7A197D313C002157E6 /* CodeAndMight-Info.plist */,
+				32E28A7B197D313C002157E6 /* InfoPlist.strings */,
+				32E28A7E197D313C002157E6 /* main.m */,
+				32E28A80197D313C002157E6 /* CodeAndMight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E28A97197D313C002157E6 /* CodeAndMightTests */ = {
+			isa = PBXGroup;
+			children = (
+				32E28A9D197D313C002157E6 /* CodeAndMightTests.m */,
+				32E28A98197D313C002157E6 /* Supporting Files */,
+			);
+			path = CodeAndMightTests;
+			sourceTree = "<group>";
+		};
+		32E28A98197D313C002157E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E28A99197D313C002157E6 /* CodeAndMightTests-Info.plist */,
+				32E28A9A197D313C002157E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E28AA7197D3739002157E6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				32E28AA8197D3741002157E6 /* Controllers */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		32E28AA8197D3741002157E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32E28AA9197D376E002157E6 /* CAMContestListTableViewController.h */,
+				32E28AAA197D376E002157E6 /* CAMContestListTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E28A6E197D313C002157E6 /* CodeAndMight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E28AA1197D313C002157E6 /* Build configuration list for PBXNativeTarget "CodeAndMight" */;
+			buildPhases = (
+				32E28A6B197D313C002157E6 /* Sources */,
+				32E28A6C197D313C002157E6 /* Frameworks */,
+				32E28A6D197D313C002157E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeAndMight;
+			productName = CodeAndMight;
+			productReference = 32E28A6F197D313C002157E6 /* CodeAndMight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32E28A8F197D313C002157E6 /* CodeAndMightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E28AA4197D313C002157E6 /* Build configuration list for PBXNativeTarget "CodeAndMightTests" */;
+			buildPhases = (
+				32E28A8C197D313C002157E6 /* Sources */,
+				32E28A8D197D313C002157E6 /* Frameworks */,
+				32E28A8E197D313C002157E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E28A96197D313C002157E6 /* PBXTargetDependency */,
+			);
+			name = CodeAndMightTests;
+			productName = CodeAndMightTests;
+			productReference = 32E28A90197D313C002157E6 /* CodeAndMightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E28A67197D313C002157E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Дмитрий";
+				TargetAttributes = {
+					32E28A8F197D313C002157E6 = {
+						TestTargetID = 32E28A6E197D313C002157E6;
+					};
+				};
+			};
+			buildConfigurationList = 32E28A6A197D313C002157E6 /* Build configuration list for PBXProject "CodeAndMight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32E28A66197D313C002157E6;
+			productRefGroup = 32E28A70197D313C002157E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E28A6E197D313C002157E6 /* CodeAndMight */,
+				32E28A8F197D313C002157E6 /* CodeAndMightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E28A6D197D313C002157E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DF1673197E5C77006F82B8 /* README.md in Resources */,
+				32E28A8B197D313C002157E6 /* Images.xcassets in Resources */,
+				32E28A7D197D313C002157E6 /* InfoPlist.strings in Resources */,
+				32DF1671197E5C77006F82B8 /* LICENSE in Resources */,
+				32E28A86197D313C002157E6 /* Main.storyboard in Resources */,
+				32DF1672197E5C77006F82B8 /* MMProgressHUD.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E28A8E197D313C002157E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E28A9C197D313C002157E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E28A6B197D313C002157E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DF164D197E489A006F82B8 /* CAMCodeforcesAPI.m in Sources */,
+				32DF107F197D56DE00632ADD /* CAMContest.m in Sources */,
+				32DF166B197E5C63006F82B8 /* MMProgressHUDWindow.m in Sources */,
+				32DF1666197E5C63006F82B8 /* MMProgressHUD.m in Sources */,
+				32DF166A197E5C63006F82B8 /* MMProgressHUDViewController.m in Sources */,
+				32E28AAB197D376E002157E6 /* CAMContestListTableViewController.m in Sources */,
+				32DF166C197E5C63006F82B8 /* MMRadialProgressView.m in Sources */,
+				32DF1665197E5C63006F82B8 /* MMLinearProgressView.m in Sources */,
+				32DF1668197E5C63006F82B8 /* MMProgressHUD+Class.m in Sources */,
+				32DF1664197E5C63006F82B8 /* MMHud.m in Sources */,
+				32DF1669197E5C63006F82B8 /* MMProgressHUDOverlayView.m in Sources */,
+				32E28A83197D313C002157E6 /* CAMAppDelegate.m in Sources */,
+				32DF166D197E5C63006F82B8 /* MMVectorImage.m in Sources */,
+				32E28A7F197D313C002157E6 /* main.m in Sources */,
+				32DF1667197E5C63006F82B8 /* MMProgressHUD+Animations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E28A8C197D313C002157E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E28A9E197D313C002157E6 /* CodeAndMightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32E28A96197D313C002157E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E28A6E197D313C002157E6 /* CodeAndMight */;
+			targetProxy = 32E28A95197D313C002157E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32E28A7B197D313C002157E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E28A7C197D313C002157E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32E28A84197D313C002157E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E28A85197D313C002157E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32E28A9A197D313C002157E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E28A9B197D313C002157E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32E28A9F197D313C002157E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32E28AA0197D313C002157E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E28AA2197D313C002157E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeAndMight/CodeAndMight-Prefix.pch";
+				INFOPLIST_FILE = "CodeAndMight/CodeAndMight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32E28AA3197D313C002157E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeAndMight/CodeAndMight-Prefix.pch";
+				INFOPLIST_FILE = "CodeAndMight/CodeAndMight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32E28AA5197D313C002157E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodeAndMight.app/CodeAndMight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeAndMight/CodeAndMight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CodeAndMightTests/CodeAndMightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		32E28AA6197D313C002157E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodeAndMight.app/CodeAndMight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeAndMight/CodeAndMight-Prefix.pch";
+				INFOPLIST_FILE = "CodeAndMightTests/CodeAndMightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E28A6A197D313C002157E6 /* Build configuration list for PBXProject "CodeAndMight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E28A9F197D313C002157E6 /* Debug */,
+				32E28AA0197D313C002157E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E28AA1197D313C002157E6 /* Build configuration list for PBXNativeTarget "CodeAndMight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E28AA2197D313C002157E6 /* Debug */,
+				32E28AA3197D313C002157E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E28AA4197D313C002157E6 /* Build configuration list for PBXNativeTarget "CodeAndMightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E28AA5197D313C002157E6 /* Debug */,
+				32E28AA6197D313C002157E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E28A67197D313C002157E6 /* Project object */;
+}
