@@ -226,7 +226,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="su5-YI-DdH">
+                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="su5-YI-DdH">
                                             <rect key="frame" x="251" y="6" width="51" height="31"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </switch>
@@ -238,6 +238,11 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="su5-YI-DdH" firstAttribute="top" secondItem="I2C-gj-vaP" secondAttribute="top" constant="6" id="4Cv-AU-8cz"/>
+                                        <constraint firstAttribute="bottom" secondItem="su5-YI-DdH" secondAttribute="bottom" constant="6" id="ma6-sU-oh4"/>
+                                        <constraint firstAttribute="trailing" secondItem="su5-YI-DdH" secondAttribute="trailing" constant="20" id="yDO-co-uc5"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="gymSwitch" destination="su5-YI-DdH" id="VxQ-Ny-T2S"/>
