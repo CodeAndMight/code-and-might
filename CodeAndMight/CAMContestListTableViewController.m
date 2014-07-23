@@ -10,6 +10,8 @@
 
 #import "CAMCodeforcesAPI.h"
 #import "CAMContest.h"
+#import "CAMDetailContestTableViewController.h"
+#import "CAMGymTableViewCell.h"
 
 @interface CAMContestListTableViewController ()
 
@@ -95,7 +97,7 @@
     double delayInSeconds = 1.0;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(popTime, dispatch_get_main_queue(), ^{
-        [[CAMCodeforcesAPI sharedCodeforcesAPI] loadContestWithGym:NO completionBlock:^(BOOL isSuccess) {
+        [[CAMCodeforcesAPI sharedCodeforcesAPI] loadContestWithGym:[self isGymSwitch] completionBlock:^(BOOL isSuccess) {
             if (isSuccess) {
                 [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:1] withRowAnimation:UITableViewRowAnimationRight];
                 
@@ -105,6 +107,15 @@
             }
         }];
     });
+}
+
+- (BOOL)isGymSwitch
+{
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    
+    CAMGymTableViewCell *cell = (CAMGymTableViewCell *)[self.tableView cellForRowAtIndexPath:indexPath];
+    
+    return cell.gymSwitch.on;
 }
 
 /*
@@ -145,7 +156,6 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -153,7 +163,12 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+    
+    CAMDetailContestTableViewController *vc = [segue destinationViewController];
+    
+    vc.indexSelected = indexPath.row;
 }
-*/
 
 @end

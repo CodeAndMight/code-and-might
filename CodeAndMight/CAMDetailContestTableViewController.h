@@ -10,4 +10,6 @@
 
 @interface CAMDetailContestTableViewController : UITableViewController
 
+@property (nonatomic) NSInteger indexSelected;
+
 @end

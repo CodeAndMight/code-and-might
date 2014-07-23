@@ -61,7 +61,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:keyLabelIdentifier forIndexPath:indexPath];
     
-    CAMContest *contest = [CAMCodeforcesAPI sharedCodeforcesAPI].contests[0];
+    CAMContest *contest = [CAMCodeforcesAPI sharedCodeforcesAPI].contests[self.indexSelected];
     
     if (indexPath.row == 0) {
         cell.textLabel.text = @"id";
