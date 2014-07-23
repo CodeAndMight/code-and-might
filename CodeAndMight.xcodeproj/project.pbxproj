@@ -22,6 +22,7 @@
 		3287ED4E197E612A00A02B77 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3287ED41197E612A00A02B77 /* README.md */; };
 		32DF107F197D56DE00632ADD /* CAMContest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF107E197D56DE00632ADD /* CAMContest.m */; };
 		32DF164D197E489A006F82B8 /* CAMCodeforcesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF164C197E489A006F82B8 /* CAMCodeforcesAPI.m */; };
+		32DFE879197FBC8700D41098 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32DFE878197FBC8700D41098 /* README.md */; };
 		32E28A73197D313C002157E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A72197D313C002157E6 /* Foundation.framework */; };
 		32E28A75197D313C002157E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A74197D313C002157E6 /* CoreGraphics.framework */; };
 		32E28A77197D313C002157E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E28A76197D313C002157E6 /* UIKit.framework */; };
@@ -79,6 +80,7 @@
 		32DF107E197D56DE00632ADD /* CAMContest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMContest.m; sourceTree = "<group>"; };
 		32DF164B197E489A006F82B8 /* CAMCodeforcesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMCodeforcesAPI.h; sourceTree = "<group>"; };
 		32DF164C197E489A006F82B8 /* CAMCodeforcesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMCodeforcesAPI.m; sourceTree = "<group>"; };
+		32DFE878197FBC8700D41098 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		32E28A6F197D313C002157E6 /* CodeAndMight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAndMight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E28A72197D313C002157E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32E28A74197D313C002157E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -226,6 +228,7 @@
 		32E28A79197D313C002157E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32DFE878197FBC8700D41098 /* README.md */,
 				32E28A7A197D313C002157E6 /* CodeAndMight-Info.plist */,
 				32E28A7B197D313C002157E6 /* InfoPlist.strings */,
 				32E28A7E197D313C002157E6 /* main.m */,
@@ -361,6 +364,7 @@
 				3287ED46197E612A00A02B77 /* MMProgressHUD.podspec in Resources */,
 				32E28A8B197D313C002157E6 /* Images.xcassets in Resources */,
 				32E28A7D197D313C002157E6 /* InfoPlist.strings in Resources */,
+				32DFE879197FBC8700D41098 /* README.md in Resources */,
 				3287ED42197E612A00A02B77 /* LICENSE in Resources */,
 				3287ED4E197E612A00A02B77 /* README.md in Resources */,
 				32E28A86197D313C002157E6 /* Main.storyboard in Resources */,
