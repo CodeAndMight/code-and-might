@@ -210,7 +210,7 @@
             </objects>
             <point key="canvasLocation" x="895" y="54"/>
         </scene>
-        <!--Contest List Table View Controller - Contest-->
+        <!--Contest List Table View Controller - Contests-->
         <scene sceneID="hqC-ew-WjC">
             <objects>
                 <tableViewController id="bzX-Gf-oSd" customClass="CAMContestListTableViewController" sceneMemberID="viewController">
@@ -219,7 +219,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GymParameterIdentifier" id="AFB-oF-Jid">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GymParameterIdentifier" id="AFB-oF-Jid" customClass="CAMGymTableViewCell">
                                 <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AFB-oF-Jid" id="I2C-gj-vaP">
@@ -239,16 +239,19 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="gymSwitch" destination="su5-YI-DdH" id="VxQ-Ny-T2S"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContestIdentifier" textLabel="KKd-po-VJn" style="IBUITableViewCellStyleDefault" id="FlS-QY-ZS1">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="ContestIdentifier" textLabel="KKd-po-VJn" style="IBUITableViewCellStyleDefault" id="FlS-QY-ZS1">
                                 <rect key="frame" x="0.0" y="163" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FlS-QY-ZS1" id="FrR-aD-xBT">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="253" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KKd-po-VJn">
-                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <rect key="frame" x="15" y="0.0" width="238" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -256,6 +259,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="rrk-vj-56c" kind="push" trigger="accessoryAction" id="lC2-LY-b36"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -263,7 +269,7 @@
                             <outlet property="delegate" destination="bzX-Gf-oSd" id="Zad-nl-EXa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Contest" id="J5K-aA-GQn">
+                    <navigationItem key="navigationItem" title="Contests" id="J5K-aA-GQn">
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="tcP-Ne-JLS">
                             <connections>
                                 <action selector="reloadContestsAction:" destination="bzX-Gf-oSd" id="L4c-3l-XK0"/>
@@ -274,6 +280,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ajy-qh-sAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1394" y="54"/>
+        </scene>
+        <!--Detail Contest Table View Controller - Contest-->
+        <scene sceneID="ai0-aU-NsQ">
+            <objects>
+                <tableViewController id="rrk-vj-56c" customClass="CAMDetailContestTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="kRM-hl-UdO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="KeyLabelIdentifier" textLabel="o2n-ab-DbV" detailTextLabel="SfY-q8-h40" style="IBUITableViewCellStyleSubtitle" id="EZG-BA-IzI">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EZG-BA-IzI" id="mj7-MU-kXR">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o2n-ab-DbV">
+                                            <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SfY-q8-h40">
+                                            <rect key="frame" x="15" y="25" width="32" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rrk-vj-56c" id="zfa-MS-vmf"/>
+                            <outlet property="delegate" destination="rrk-vj-56c" id="w8K-b2-Avv"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Contest" id="fGM-Dh-i3V"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfk-Nh-jBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1895" y="54"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IzR-pD-jhG">

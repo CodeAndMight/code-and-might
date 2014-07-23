@@ -64,8 +64,19 @@
             contest.idNumber = [json objectForKey:@"id"];
             contest.name = [json objectForKey:@"name"];
             contest.type = [json objectForKey:@"phase"];
-            //contest.frozen = [json objectForKey:@"frozen"];
+            contest.frozen = ((NSNumber *)[json objectForKey:@"frozen"]).boolValue;
             contest.durationSeconds = [json objectForKey:@"durationSeconds"];
+            contest.startTimeSeconds = [NSDate dateWithTimeIntervalSince1970:((NSNumber *)[json objectForKey:@"startTimeSeconds"]).integerValue];
+            contest.relativeTimeSeconds = [json objectForKey:@"relativeTimeSeconds"];
+            contest.preparedBy = [json objectForKey:@"preparedBy"];
+            contest.websiteUrl = [NSURL URLWithString:[json objectForKey:@"websiteUrl"]];
+            contest.deScription = [json objectForKey:@"description"];
+            contest.difficulty = [json objectForKey:@"difficulty"];
+            contest.kind = [json objectForKey:@"kind"];
+            contest.icpcRegion = [json objectForKey:@"icpcRegion"];
+            contest.country = [json objectForKey:@"country"];
+            contest.city = [json objectForKey:@"city"];
+            contest.season = [json objectForKey:@"season"];
             
             [self.contests addObject:contest];
         }

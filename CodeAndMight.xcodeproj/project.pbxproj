@@ -36,6 +36,8 @@
 		32E28A9C197D313C002157E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32E28A9A197D313C002157E6 /* InfoPlist.strings */; };
 		32E28A9E197D313C002157E6 /* CodeAndMightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E28A9D197D313C002157E6 /* CodeAndMightTests.m */; };
 		32E28AAB197D376E002157E6 /* CAMContestListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E28AAA197D376E002157E6 /* CAMContestListTableViewController.m */; };
+		32E62C19197E8B7E004FB8C3 /* CAMGymTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E62C18197E8B7E004FB8C3 /* CAMGymTableViewCell.m */; };
+		32E62C1C197E8E12004FB8C3 /* CAMDetailContestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E62C1B197E8E12004FB8C3 /* CAMDetailContestTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,10 @@
 		32E28A9D197D313C002157E6 /* CodeAndMightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeAndMightTests.m; sourceTree = "<group>"; };
 		32E28AA9197D376E002157E6 /* CAMContestListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMContestListTableViewController.h; sourceTree = "<group>"; };
 		32E28AAA197D376E002157E6 /* CAMContestListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMContestListTableViewController.m; sourceTree = "<group>"; };
+		32E62C17197E8B7E004FB8C3 /* CAMGymTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMGymTableViewCell.h; sourceTree = "<group>"; };
+		32E62C18197E8B7E004FB8C3 /* CAMGymTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMGymTableViewCell.m; sourceTree = "<group>"; };
+		32E62C1A197E8E12004FB8C3 /* CAMDetailContestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMDetailContestTableViewController.h; sourceTree = "<group>"; };
+		32E62C1B197E8E12004FB8C3 /* CAMDetailContestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMDetailContestTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +255,7 @@
 		32E28AA7197D3739002157E6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				32E62C16197E8B53004FB8C3 /* Views */,
 				32E28AA8197D3741002157E6 /* Controllers */,
 			);
 			name = UI;
@@ -259,8 +266,19 @@
 			children = (
 				32E28AA9197D376E002157E6 /* CAMContestListTableViewController.h */,
 				32E28AAA197D376E002157E6 /* CAMContestListTableViewController.m */,
+				32E62C1A197E8E12004FB8C3 /* CAMDetailContestTableViewController.h */,
+				32E62C1B197E8E12004FB8C3 /* CAMDetailContestTableViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		32E62C16197E8B53004FB8C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32E62C17197E8B7E004FB8C3 /* CAMGymTableViewCell.h */,
+				32E62C18197E8B7E004FB8C3 /* CAMGymTableViewCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DF164D197E489A006F82B8 /* CAMCodeforcesAPI.m in Sources */,
+				32E62C19197E8B7E004FB8C3 /* CAMGymTableViewCell.m in Sources */,
 				32DF107F197D56DE00632ADD /* CAMContest.m in Sources */,
 				3287ED49197E612A00A02B77 /* MMProgressHUDOverlayView.m in Sources */,
 				3287ED48197E612A00A02B77 /* MMProgressHUD+Class.m in Sources */,
@@ -377,6 +396,7 @@
 				32E28A83197D313C002157E6 /* CAMAppDelegate.m in Sources */,
 				3287ED4A197E612A00A02B77 /* MMProgressHUDViewController.m in Sources */,
 				3287ED43197E612A00A02B77 /* MMHud.m in Sources */,
+				32E62C1C197E8E12004FB8C3 /* CAMDetailContestTableViewController.m in Sources */,
 				3287ED4B197E612A00A02B77 /* MMProgressHUDWindow.m in Sources */,
 				32E28A7F197D313C002157E6 /* main.m in Sources */,
 			);

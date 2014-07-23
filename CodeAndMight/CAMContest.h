@@ -24,7 +24,7 @@
 @property (strong, nonatomic) NSNumber *relativeTimeSeconds;
 @property (strong, nonatomic) NSString *preparedBy;
 @property (strong, nonatomic) NSURL *websiteUrl;
-@property (strong, nonatomic) NSString *description;
+@property (strong, nonatomic) NSString *deScription;
 @property (strong, nonatomic) NSNumber *difficulty;
 @property (strong, nonatomic) NSString *kind;
 @property (strong, nonatomic) NSString *icpcRegion;
